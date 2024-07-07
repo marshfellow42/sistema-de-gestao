@@ -13,7 +13,7 @@
 </head>
 <body>
     
-    <div class="container">
+    <div class="px-md-3">
         <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">Ponto do Poder</a>
@@ -36,7 +36,7 @@
             </div>
           </nav>          
     </div>
-    <div class="container">
+    <div class="px-md-3">
         <hr>
         <div class="row">
             <div class="col-md-2">
@@ -143,11 +143,11 @@
     <script src="dist/js/jszip.min.js"></script>
     <script src="dist/js/pdfmake.min.js"></script>
     <script src="dist/js/vfs_fonts.js"></script>
-    <script src="dist/js/buttons.php5.min.js"></script>
+    <script src="dist/js/buttons.html5.min.js"></script>
     <script src="dist/js/buttons.print.min.js"></script>
-    <script src="dist/js/buttons.colVis.min.js"></script>
+    <script src="dist/js/buttons.colvis.min.js"></script>
     <script type="text/javascript">
-        let table = new DataTable('#myTable', {
+        new DataTable('#myTable', {
             responsive: true,
             layout: {
                 topStart: {

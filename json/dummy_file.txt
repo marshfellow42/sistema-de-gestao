@@ -1,0 +1,1 @@
+Esse arquivo é necessário para a criação dessa pasta, por causa da existência dos arquivos JSON

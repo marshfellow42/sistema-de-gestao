@@ -10,7 +10,7 @@
 </head>
 <body>
     
-    <div class="container">
+    <div class="px-md-3">
         <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">Ponto do Poder</a>
@@ -20,25 +20,25 @@
               <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link active" href="clientes.php"> <i class="fa fa-users"></i> Clientes</a>
+                    <a class="nav-link" href="clientes.php"> <i class="fa fa-users"></i> Clientes</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="produtos.php"> <i class="fa fa-cubes"></i> Produtos</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="fornecedores.php"> <i class="fa fa-truck"></i> Fornecedores</a>
+                    <a class="nav-link active" href="fornecedores.php"> <i class="fa fa-truck"></i> Fornecedores</a>
                   </li>
                 </ul>
               </div>
             </div>
           </nav>          
     </div>
-    <div class="container">
+    <div class="px-md-3">
         <hr>
         <div class="row">
             <div class="col-md-2">
                 <ul class="list-group">
-                    <li class="list-group-item"><a href="clientes.php"> Menu de Cliente </a></li>
+                    <li class="list-group-item"><a href="fornecedores.php"> Menu de Fornecedores </a></li>
                     <li class="list-group-item active" aria-current="true"> Adicionar </li>
                     <li class="list-group-item">Perfil</li>
                     <li class="list-group-item">Posição Financeira</li>
@@ -48,7 +48,7 @@
             <div class="col-md-10">
                 <div class="card text-center">
                     <div class="card-header">
-                      Cadastro de Clientes
+                      Cadastro dos Fornecedores
                     </div>
                     <!-- Criar um arquivo JSON e colocar todos os dados de cada usuário lá e depois chamar os dados na tabela de clientes--> 
                     <form action="php/formulario_cadastro_fornecedores.php" method="POST">

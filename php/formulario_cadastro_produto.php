@@ -7,7 +7,7 @@
         "pre_compra" => $_POST["pre_compra"],
         "pre_venda" => $_POST["pre_venda"],
         "quantidade" => $_POST["quantidade"],
-        "lucro_possivel" => $_POST["lucro_possivel"]
+        "lucro_possivel" => $_POST["pre_venda"] - $_POST["pre_compra"]
     );
 
     // File path

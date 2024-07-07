@@ -10,7 +10,7 @@
 </head>
 <body>
     
-    <div class="container">
+    <div class="px-md-3">
         <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">Ponto do Poder</a>
@@ -33,7 +33,7 @@
             </div>
           </nav>          
     </div>
-    <div class="container">
+    <div class="px-md-3">
         <hr>
         <div class="row">
             <div class="col-md-2">

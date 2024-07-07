@@ -10,7 +10,7 @@
 </head>
 <body>
     
-    <div class="container">
+    <div class="px-md-3">
         <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">Ponto do Poder</a>
@@ -33,7 +33,7 @@
             </div>
           </nav>          
     </div>
-    <div class="container">
+    <div class="px-md-3">
         <hr>
         <div class="row">
             <div class="col-md-2">
@@ -48,7 +48,7 @@
             <div class="col-md-10">
                 <div class="card text-center">
                     <div class="card-header">
-                      Cadastro de Fornecedores
+                      Cadastro de Produtos
                     </div>
                     <form action="php/formulario_cadastro_produto.php" method="POST">
                         <div class="card-body">
@@ -75,14 +75,16 @@
                                         <input name="nome_fornecedor" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">                        
                                     </div>
                 
+                                </div>
+                                <div class="col-md-6">
+
                                     <div class="mb-3">
                                         <label for="exampleInputEmail1" class="form-label">
                                             <i class="fa fa-globe"></i></i> Preço de Compra
                                         </label>
                                         <input name="pre_compra" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">                        
                                     </div>
-                                </div>
-                                <div class="col-md-6">
+
                                     <div class="mb-3">
                                         <label for="exampleInputEmail1" class="form-label">
                                             <i class="fa fa-map"></i></i> Preço de Venda
@@ -97,12 +99,6 @@
                                         <input name="quantidade" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">                        
                                     </div>
                 
-                                    <div class="mb-3">
-                                        <label for="exampleInputEmail1" class="form-label">
-                                            <i class="fa fa-phone"></i></i> Possível Lucro
-                                        </label>
-                                        <input name="lucro_possivel" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">                        
-                                    </div>
                                 </div>
 
                                 <hr>

@@ -167,10 +167,10 @@
     <script src="dist/js/jquery.min.js"></script>
     <script src="dist/js/bootstrap.bundle.min.js"></script>
     <script src="dist/js/three.min.js"></script>
-    <script src="dist/js/vanta.net.min.js"></script>
+    <script src="dist/js/vanta.birds.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script>
-        VANTA.NET({
+        VANTA.BIRDS({
         el: "#background",
         mouseControls: true,
         touchControls: true,
