@@ -42,10 +42,7 @@
             <div class="col-md-2">
                 <ul class="list-group">
                     <li class="list-group-item active" aria-current="true"> Menu de Fornecedores </li>
-                    <li class="list-group-item"><a href="cadastro_fornecedores.php">Adicionar</a></li>
-                    <li class="list-group-item">Perfil</li>
-                    <li class="list-group-item">Posição Financeira</li>
-                    <li class="list-group-item">Carga Inicial</li>
+                    <li class="list-group-item"><a href="cadastro_fornecedores.php"> Cadastro dos Fornecedores </a></li>
                 </ul>
             </div>
             <div class="col-md-10">

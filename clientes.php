@@ -42,10 +42,7 @@
             <div class="col-md-2">
                 <ul class="list-group">
                     <li class="list-group-item active" aria-current="true"> Menu de Clientes </li>
-                    <li class="list-group-item"><a href="cadastro_cliente.php">Adicionar</a></li>
-                    <li class="list-group-item">Perfil</li>
-                    <li class="list-group-item">Posição Financeira</li>
-                    <li class="list-group-item">Carga Inicial</li>
+                    <li class="list-group-item"><a href="cadastro_cliente.php"> Cadastro de Clientes </a></li>
                 </ul>
             </div>
             <div class="col-md-10">

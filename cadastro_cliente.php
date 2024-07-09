@@ -6,7 +6,7 @@
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"> -->
     <link rel="stylesheet" href="dist/css/bootstrap.min.css"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">   
-    <title> Pagina Padrão </title>
+    <title> Cadastro de Clientes </title>
 </head>
 <body>
     
@@ -38,11 +38,8 @@
         <div class="row">
             <div class="col-md-2">
                 <ul class="list-group">
-                    <li class="list-group-item"><a href="clientes.php"> Menu de Cliente </a></li>
-                    <li class="list-group-item active" aria-current="true"> Adicionar </li>
-                    <li class="list-group-item">Perfil</li>
-                    <li class="list-group-item">Posição Financeira</li>
-                    <li class="list-group-item">Carga Inicial</li>
+                    <li class="list-group-item"><a href="clientes.php"> Menu de Clientes </a></li>
+                    <li class="list-group-item active" aria-current="true"> Cadastro de Clientes </li>
                 </ul>
             </div>
             <div class="col-md-10">
@@ -97,20 +94,12 @@
 
                                 <div class="mb-3">
                                     <div class="d-grid gap-2">
-                                        <button type="submit" class="btn btn-outline-success"> Fazer Login </button>
+                                        <button type="submit" class="btn btn-outline-success"> Adicionar Cliente </button>
                                     </div>
                                 </div>
-
+                            </div>
                         </div>
-
-
-                    </div>
-                        
                     </form>
-                    
-                    <!-- <div class="card-footer text-body-secondary">
-                      2 days ago
-                    </div> -->
                 </div> 
             </div>
         </div>
