@@ -29,7 +29,7 @@
     }
 
     // Encode array to JSON format
-    $jsonData = json_encode($data, JSON_PRETTY_PRINT);
+    $jsonData = json_encode($data, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
 
     // Write updated JSON data back to the file
     file_put_contents($filePath, $jsonData);
