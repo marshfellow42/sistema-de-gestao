@@ -1,8 +1,5 @@
-# Exclude everything in the folder
 json/*
 
-# But do not exclude the folder itself, so we can add the file
 !json/
 
-# Do not ignore the specific file we want to keep
 !json/dummy_file.txt

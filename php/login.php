@@ -8,10 +8,17 @@
     $username = $_POST["username"];
     $password = $_POST['password'];    
 
-    # 1º teste: testar o email:
     if ($username != $userReal || $password != $passReal) {
         header("location: ../index.php?msg=access_error");
     } else {
-        //echo "Acesso permitido!";
-        header("location: ../clientes.php");
+
+        session_start();
+
+        $data['user'] = $username;
+        $data['email'] = "admin@admin.com";
+        $data['access'] = date("d/m/Y H:i:s");
+
+        $_SESSION['user_data'] = $data;
+
+        header("location: ../index.php");
     }
